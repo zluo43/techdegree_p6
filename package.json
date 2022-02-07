@@ -1,0 +1,26 @@
+{
+  "name": "techdegree_p6",
+  "version": "1.0.0",
+  "description": "A portfolio site made with Node.js and Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zluo43/techdegree_p6.git"
+  },
+  "author": "zluo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zluo43/techdegree_p6/issues"
+  },
+  "homepage": "https://github.com/zluo43/techdegree_p6#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

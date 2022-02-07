@@ -1,0 +1,63 @@
+{
+	
+
+		"projects": [{
+				"id": 0,
+                "project_name":"Random Quote Generator",
+				"description": "An website that displays randomly generated quotes at an interval with random background colors displaying",
+				"technologies": ["HTML","JavaScript","CSS"],
+                "live_link":  "https://zluo43.github.io/techdegree_p1/index.html",
+                "github_link":"https://github.com/zluo43/techdegree_p1.git",
+                "image_urls":[
+					"/static/images/p1.jpg", "/static/images/p1-02.jpg"
+				  ]
+
+			},
+			{
+				"id": 1,
+				"project_name":"Pagination and Filtering",
+				"description": "A use of pagination and searchbar to improve a web page's usability",
+				"technologies": ["JavaScript","HTML","CSS" ],
+                "live_link":"https://zluo43.github.io/techdegree_p2/",
+                "github_link":"https://github.com/zluo43/techdegree_p2",
+                "image_urls":[
+					"/static/images/p2.jpg", "/static/images/p2-02.jpg"
+				  ]
+                
+			},
+			{
+				"id": 2,
+				"project_name": "Interactive Form",
+				"technologies": ["HTML","CSS","Javascript"],
+				"description": "Use of form element and form validation process to create an onlie HTML form",
+                "live_link":"https://zluo43.github.io/techdegree_p3/",
+                "github_link":"https://github.com/zluo43/techdegree_p3",
+                "image_urls":[
+					"/static/images/p3.jpg", "/static/images/p3-02.jpg"
+				  ]
+			},
+			{
+				"id": 3,
+				"project_name":"Object-Oriented-Programming Gameshow",
+				"description": "A web-based game created using OOP technique",
+				"technologies": ["HTML","CSS","Javascript"],
+                "live_link":" https://zluo43.github.io/techdegree_p4/",
+                "github_link":"https://github.com/zluo43/techdegree_p4",
+                "image_urls":[
+					"/static/images/p4.jpg", "/static/images/p4-02.jpg"
+				  ]
+			},
+			{
+				"id": 4,
+				"project_name":"Fetch API",
+				"description": "Retrieving data using online API to create a student directory",
+				"technologies": ["HTML","CSS","Javascript"],
+                "live_link":" https://zluo43.github.io/techdegree_p5/",
+                "github_link":"https://github.com/zluo43/techdegree_p5",
+                "image_urls":[
+					"/static/images/p5.jpg", "/static/images/p5-02.jpg"
+				  ]
+			}
+			
+		]
+	}

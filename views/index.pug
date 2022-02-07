@@ -5,10 +5,10 @@ block content
   article.portfolio-intro
 
     //- Replace with your own heading like 'My Portfolio', or 'Hey, Potential Employers', or 'Let's make the web great together!' 
-    h1 Heading
+    h1 Hello everyone! Welcome!
 
     //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
-    p Portfolio description
+    p This page is to showcase some of the projects I have worked on at Treehouse!
 
 
   article.portfolio-project-thumbs
@@ -20,9 +20,10 @@ block content
           //- The paths in the link's href and img's src attributes
           //- The text 'Thumbnail' interpolated with the project title for the img's alt attribute
           //- The project title for the h5 element's text
+      each project in projects       
+        a.cell(href=`/projects/${project.id}`)
+          h3= project.project_name
+          img.thumbnail(src=`${project.image_urls[0]}`,alt='thumbnail picture')
+        
 
-        .cell
-          a(href='#')
-            img.thumbnail(src='https://placehold.it/550x550', alt='')
-            h5 My Site
 
