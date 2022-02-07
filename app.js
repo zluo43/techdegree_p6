@@ -37,31 +37,31 @@ app.get('/projects/:id', (req, res, next) => {
 });
 
 
-//Error handling
-// app.use((req, res, next) => {
-//   const err = new Error ('This page does not exist');
-//   console.log(err.message);
-//   err.status = 404;
-//   next(err);
-// });
+// Error handling
+app.use((req, res, next) => {
+  const err = new Error ('This page does not exist');
+  console.log(err.message);
+  err.status = 404;
+  next(err);
+});
 
-// //An err.status and an err.message property 
-// //if they don't already exist, and then log out the err object's message and status.
-// app.use((err, req, res, next) =>{
-//   if(err.status===404){
-//     err.message = 'Sorry, content not found';
-//     console.log(err.message);
-//     res.locals.err = err;
-//     res.status(err.status);
-//     res.render('error',{ err });
-//   } else {
-//     err.message = 'Server Error';
-//     res.status(err.status || 500 ); 
-//     res.render('error',{ err });
-//   }
+//An err.status and an err.message property 
+//if they don't already exist, and then log out the err object's message and status.
+app.use((err, req, res, next) =>{
+  if(err.status===404){
+    err.message = 'Sorry, content not found';
+    console.log(err.message);
+    res.locals.err = err;
+    res.status(err.status);
+    res.render('error',{ err });
+  } else {
+    err.message = 'Server Error';
+    res.status(err.status || 500 ); 
+    res.render('error',{ err });
+  }
 
-//   console.log(err.status, err,message);
-// })
+  console.log(err.status, err,message);
+})
 
 //try debug server error 
 // app.use(function (err, req, res, next) {
