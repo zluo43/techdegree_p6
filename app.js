@@ -60,7 +60,7 @@ app.use((err, req, res, next) =>{
     res.render('error',{ err });
   }
 
-  console.log(err.status, err,message);
+  console.log(err.status, err.message);
 })
 
 //try debug server error 
