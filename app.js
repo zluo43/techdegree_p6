@@ -32,7 +32,7 @@ app.get('/projects/:id', (req, res, next) => {
   if (project){
     res.render('project', {project})
   }else{
-    res.sendStatus(404);
+    next()
   }  
 });
 
