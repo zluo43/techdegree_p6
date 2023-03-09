@@ -4,6 +4,7 @@ const {projects} = require('./data.json');
 
 
 
+
 app.use(express.json());
 
 //set up middleware
