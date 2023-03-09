@@ -9,7 +9,9 @@
     
   },
   "engines": {
-    "node":"19.5.0"
+    "node":"19.5.0",
+    "npm": "9.3.1",
+    "nodemon":"^2.0.12"
   },
   "repository": {
     "type": "git",
@@ -27,6 +29,7 @@
 
   },
   "devDependencies": {
-    "nodemon": "^2.0.12"
+    "nodemon": "^2.0.12",
+    "ndoe":"19.5.0"
   }
 }
